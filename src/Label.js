@@ -16,7 +16,7 @@ const LabelCom = styled.div`
   padding: 10px;
   text-align:center;
   background: ${(props) => {
-    return props.type === "success" ? "green" : "red"
+    return props.type === "alert" ? "red" : "green"
   }};
 `;
 
