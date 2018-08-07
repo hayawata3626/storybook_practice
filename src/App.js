@@ -12,8 +12,8 @@ class App extends Component {
     return (
       <ThemeProvider theme={theme}>
         <div>
-          <Button bgColor="primary">Click</Button>
-          <Button bgColor="secondary">Click</Button>
+          <Button>Click</Button>
+          <Button width="200px" height="30px" color="onSecondary" bgColor="secondary">Click</Button>
         </div>
       </ThemeProvider>
     );

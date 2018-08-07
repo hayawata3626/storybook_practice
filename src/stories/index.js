@@ -3,4 +3,5 @@ import { storiesOf } from '@storybook/react';
 import Button from '../Button';
 
 storiesOf('Button', module)
-  .add('prymary', () => <Button>Click</Button>)
+  .add('default', () => <Button>Click</Button>)
+  .add('secondary', () => <Button color="onSecondary" bgColor="secondary">Click</Button>)
